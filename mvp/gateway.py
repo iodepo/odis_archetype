@@ -10,15 +10,15 @@ from pathlib import Path
 # Import main functions from the modules
 # We use absolute imports assuming the script is run with PYTHONPATH=.
 def get_summoner_main():
-    from mvp.summoner.__main__ import main
+    from summoner.__main__ import main
     return main
 
 def get_scribe_main():
-    from mvp.scribe.__main__ import main
+    from scribe.__main__ import main
     return main
 
 def get_indexer_main():
-    from mvp.indexer.__main__ import main
+    from indexer.__main__ import main
     return main
 
 def build_parser() -> argparse.ArgumentParser:
